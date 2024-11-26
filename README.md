@@ -9,6 +9,10 @@
 активировать и этот класс запускается всегда 
   - см. RunAlwaysBlackCarTest и RunAlwaysWhiteCarTest
 
+В ресурсах для каждого профиля можно создать свой проперти файл:
+- application-black.properties для профиля "black"
+- application-white.properties для профиля "white"
+
 Примечание: 
 1) если нужно, чтобы запускались тесты только одного варианта - то нужно использовать 1-ый вариант с @EnabledIf.
 2) если в приложении один файл application.properties, то настройки берутся из него,
